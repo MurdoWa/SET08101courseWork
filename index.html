@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="StyleSheet.css">
+	<script type="text/javascript" src="http://www.yourhowto.net/wp-content/uploads/2013/08/jquery.min.js"></script><script type="text/javascript">// <![CDATA[
+		var image_array = new Array();
+		image_array[0] = "WashingtonSkyBG.png";
+		image_array[1] = "SqBG.jpg";
+		image_array[2] = "duckBG.jpg";
+
+ 
+		var rand_path = image_array[Math.floor(Math.random() * image_array.length)];
+ 
+		$(document).ready(function() {
+		$('#backgroundImg').css('background-image', 'url('+rand_path+')');
+	});
+	// ]]></script>
+
+</head>
+<body>
+
+	
+	<div id="header">
+		<h1>[M.WALLACE-PHOTOGRAPHY]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h1>
+		
+		<div id="logo">
+		<div class="circle"style="background-color:#3c3c3c;"></div>
+		<div class="circle"style="background-color:#d3d3d3;"></div>
+		<div class="circle"style="background-color:#f29004;"></div>
+		
+		</div>
+		
+	</div>	
+	
+	<div id="nav">
+		<ul>
+			<li><a class="current"><b>[HOME]</b></mark></a>
+			</li>
+		
+			<li><a href="file:///C:/Users/murdo/Desktop/WEB/Coursework/photoshoot1.html"><b>[PHOTOSHOOT1]</b></a>
+			</li>
+		
+			<li><a href="file:///C:/Users/murdo/Desktop/WEB/Coursework/photoshoot2.html"><b>[PHOTOSHOOT2]</b></a>
+			</li>
+		
+			<li><a href="file:///C:/Users/murdo/Desktop/WEB/Coursework/photoshoot3.html"><b>[PHOTOSHOOT3]</b></a>
+			</li>
+			
+			<li><a href="file:///C:/Users/murdo/Desktop/WEB/Coursework/about.html"><b>[ABOUT]</b></a>
+			</li>
+		
+		</ul>
+	</div>
+
+
+	<div id="backgroundImg"></div>
+
+	<div id="MainText">
+	<h3><u>[ABOUT-ME]</u></h3>
+	<p>This allows for the introduction of all the features I planned for the website with the introduction of the navigation bar at the top of the page as well as some of photos that help clarify what the website is to be about. I also settled on the use of a footer that shall appear across all webpages in order to help the pages consistent as well as make the website clearly mine. The large about section in the middle will consist of information about what the website is about as well as what kind of photography I actually do.</p>
+	
+	</div>
+	<div id="Bottom">
+
+		<h3><u>[Most-Recent-Shoots]</u></h3>
+		<div class="row">
+			<div class="column">
+			
+			
+				<div id="imageBackground">
+					<img src="WashingtonSky.png" alt="placeholder" style="width:100%">
+					<h3>  &nbsp; &nbsp;SHOOT-1-WASHINGTON</h3>
+					<p style="font-size:12px; color: #b4b4b4;"> <b>&nbsp;&nbsp;&nbsp;  Some simple photos taken in Washinton DC</b></p>
+				</div>
+				
+			
+			</div>
+			<div class="column">
+			
+			<div id="imageBackground">
+					<img src="sq.jpg" alt="placeholder" style="width:100%">
+					<h3> &nbsp; &nbsp;SHOOT-2-BOTANICAL-GARDENS</h3>
+					<p style="font-size:12px; color: #b4b4b4;"> <b>&nbsp;&nbsp;&nbsp; A selection of photos form the Edinburgh botanic gardens </b></p>
+
+				</div>
+
+			</div>
+			<div class="column">
+			
+			
+				<div id="imageBackground">
+					<img  src="duck.jpg" alt="placeholder" style="width:100%">
+					<h3>  &nbsp;&nbsp;SHOOT-3-FLOWERS</h3>
+					<p style="font-size:12px; color: #b4b4b4;"> <b>&nbsp;&nbsp;&nbsp;  3 photos of some flowers (This one was really simple)</b></p>
+
+				</div>
+
+			</div>
+		</div>
+
+
+	</div>
+		
+	<div id="footer">
+
+		<h4>[MURDO-WALLACE] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[LAST-UPDATED: 2024]</h4>
+	</div>
+
+</body>
+</html>
